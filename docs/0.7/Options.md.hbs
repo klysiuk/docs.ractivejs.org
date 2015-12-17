@@ -272,7 +272,7 @@ ractive.myMethod(); // triggers the alert
 > ```js
 > var items = [ 'red', 'blue' ];
 > new Ractive({
->     data: data,
+>     data:  { items: items },
 >     modifyArrays: true //default
 > } );
 > // will update automagically:
